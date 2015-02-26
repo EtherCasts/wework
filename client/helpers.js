@@ -1,6 +1,6 @@
 UI.registerHelper("formatDate", function(timestamp) {
 	if(timestamp)
-		return moment(timestamp).format('M/D/YY');
+		return moment(timestamp).format('MMMM Do YYYY');
 });
 
 UI.registerHelper("currentUserDisplayName", function() {

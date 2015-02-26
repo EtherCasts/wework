@@ -1,6 +1,8 @@
 <template name="jobLabels">
 	{{#if remote}}<span class="label label-success"><i class="fa fa-globe"></i> Remote</span>{{/if}}
-	{{#if jobtype}}<span class="label label-default"><i class="fa fa-clock-o"></i> {{jobtype}}</span>{{/if}}
+	{{#if jobtype}}
+    <span class="label {{#if isBounty}}label-danger{{else}}label-default{{/if}}"><i class="fa {{#if isBounty}}fa-trophy{{else}}fa-clock-o{{/if}}"></i> {{jobtype}}</span>
+    {{/if}}
 </template>
 
 <template name="jobExpiredAlert">

@@ -8,11 +8,7 @@ less
 service-configuration
 accounts-ui
 accounts-password
-accounts-facebook
 accounts-github
-accounts-google
-accounts-twitter
-accounts-meteor-developer
 spiderable
 iron:router
 natestrauser:font-awesome
@@ -21,7 +17,6 @@ momentjs:moment
 aldeed:autoform
 aldeed:collection2
 multiply:iron-router-progress
-pauli:accounts-linkedin
 natestrauser:connection-banner
 dfischer:phantomjs
 lampe:rssfeed

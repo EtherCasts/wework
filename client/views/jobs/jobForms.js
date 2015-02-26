@@ -24,4 +24,10 @@ Template.jobEdit.events({
 		event.preventDefault();
 		Router.go("job",{_id:this.job._id});
 	}
-})
+});
+
+Template.jobLabels.helpers({
+    isBounty: function () {
+        return this.jobtype === 'Bounty';
+    }
+});

@@ -1,4 +1,4 @@
-Accounts.emailTemplates.siteName = "We Work Meteor";
+Accounts.emailTemplates.siteName = "Ethereum Jobs";
 Accounts.emailTemplates.from = FROM_EMAIL;
 
 Accounts.onCreateUser(function(options, user) {
